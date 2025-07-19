@@ -1,7 +1,7 @@
 import axios from "axios";
 
 // API 서버 주소 (환경변수 또는 직접 문자열로)
-const BASE_URL = "http://13.125.249.95:8080"; // 또는 "https://api.jeonghyeon.store"
+const BASE_URL = "http://api.jeonghyeon.store"; // 또는 "https://api.jeonghyeon.store"
 
 const diaryApi = axios.create({
   baseURL: BASE_URL,
